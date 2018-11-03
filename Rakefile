@@ -9,8 +9,8 @@ namespace :greeting do
 end
 
 namespace :db do
-  task :migrate => :environment do
-    Student.create_table
+  task :migrate do
+
   end
 
   task :seed do
