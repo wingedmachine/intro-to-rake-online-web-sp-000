@@ -1,6 +1,6 @@
 namespace :greeting do
   task :hello do
-    put "hello from Rake!"
+    puts "hello from Rake!"
   end
 
   task :hola do
