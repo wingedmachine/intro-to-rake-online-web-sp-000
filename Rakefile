@@ -9,11 +9,15 @@ namespace :greeting do
 end
 
 namespace :db do
-  task :migrate do
+  task :migrate => :environment do
 
   end
 
   task :seed do
     
   end
+end
+
+task :environment do
+  
 end
